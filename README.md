@@ -1,6 +1,6 @@
-# PHP DBGp Proxy Docker Image
+# PHP X-Debug DBGp Proxy Server Docker Image
 
-This Docker image provides a lightweight and fast PHP DBGp Proxy server based on Alpine Linux. DBGp is a proxy used for debugging PHP applications in multi-user environment. This image is designed to simplify the setup of a DBGp Proxy server in your development environment.
+This Docker image provides a lightweight and fast PHP X-Debug DBGp Proxy Server based on Alpine Linux. DBGp is a proxy used for debugging PHP applications in multi-user environment. This image is designed to simplify the setup of a DBGp Proxy server in your development environment.
 
 ## Usage
 
@@ -27,7 +27,7 @@ services:
     # Add additional configuration as needed
 ```
 
-Save and adjust this file to your need and run the following command to start the DBGp Proxy server:
+Save this file and run the following command to start the DBGp Proxy server:
 ```bash
 docker-compose up -d
 ```

@@ -36,8 +36,8 @@ docker-compose up -d
 
 You can customize the configuration of the DBGp Proxy server by providing environment variables. 
 
-    IDE_PORT: The port of proxy you will set on your IDE to listen. Default is 9001.
-    DEBUG_PORT: The port on which the X-Debug is running server. Default is 9003.
+- IDE_PORT: The port of proxy you will set on your IDE to listen. Default is 9001.
+- DEBUG_PORT: The port on which the X-Debug is running server. Default is 9003.
 
 #### Example:
 

@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  debugger:
+    container_name: debugger
+    image: mahiarirani/dbgp:latest
+    restart: unless-stopped
+    environment:
+      IDE_PORT: 9001
+      DEBUG_PORT: 9003
